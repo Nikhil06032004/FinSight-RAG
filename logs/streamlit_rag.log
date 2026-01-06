@@ -1,0 +1,45 @@
+2026-01-06 01:25:00,644 - __main__ - INFO - Loading embeddings: sentence-transformers/all-MiniLM-L6-v2
+2026-01-06 01:25:07,040 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-01-06 01:25:07,041 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-01-06 01:25:12,876 - __main__ - INFO - Loading vector database from: vectorstore/db_faiss
+2026-01-06 01:25:12,882 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-01-06 01:25:12,977 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-01-06 01:25:13,112 - __main__ - INFO - Initializing LLM: llama-3.1-8b-instant
+2026-01-06 01:27:22,924 - __main__ - INFO - Loading embeddings: sentence-transformers/all-MiniLM-L6-v2
+2026-01-06 01:27:32,229 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-01-06 01:27:32,229 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-01-06 01:27:38,203 - __main__ - INFO - Loading vector database from: vectorstore/db_faiss
+2026-01-06 01:27:38,209 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-01-06 01:27:38,372 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-01-06 01:29:08,020 - __main__ - INFO - Initializing LLM: llama-3.1-8b-instant
+2026-01-06 01:29:43,492 - __main__ - INFO - Initializing LLM: llama-3.1-8b-instant
+2026-01-06 01:29:44,540 - __main__ - ERROR - Error processing query: 'VectorStoreRetriever' object has no attribute 'get_relevant_documents'
+2026-01-06 01:30:06,241 - __main__ - INFO - Initializing LLM: llama-3.1-8b-instant
+2026-01-06 01:30:07,552 - __main__ - ERROR - Error processing query: 'VectorStoreRetriever' object has no attribute 'get_relevant_documents'
+2026-01-06 01:36:04,491 - __main__ - INFO - Initializing LLM: llama-3.1-8b-instant
+2026-01-06 01:36:09,173 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-06 01:36:09,319 - __main__ - INFO - Successfully processed query: what is liver cirrishosis...
+2026-01-06 01:43:54,170 - __main__ - INFO - Initializing LLM: llama-3.1-8b-instant
+2026-01-06 01:44:24,316 - __main__ - INFO - Initializing LLM: llama-3.1-8b-instant
+2026-01-06 01:44:25,422 - __main__ - ERROR - Error processing query: 'VectorStoreRetriever' object has no attribute 'get_relevant_documents'
+2026-01-06 01:44:50,785 - __main__ - INFO - Initializing LLM: llama-3.1-8b-instant
+2026-01-06 01:44:54,575 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-06 01:44:54,593 - __main__ - INFO - Successfully processed query: How can I improve my sleep quality?...
+2026-01-06 01:45:19,670 - __main__ - INFO - Initializing LLM: llama-3.1-8b-instant
+2026-01-06 01:45:22,351 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-06 01:45:22,356 - __main__ - INFO - Successfully processed query: what is liver cirrhosis...
+2026-01-06 14:17:06,879 - __main__ - INFO - Loading embeddings: sentence-transformers/all-MiniLM-L6-v2
+2026-01-06 14:17:46,634 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-01-06 14:17:46,636 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-01-06 14:18:00,777 - __main__ - INFO - Loading vector database from: vectorstore/db_faiss
+2026-01-06 14:18:00,799 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-01-06 14:18:01,880 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-01-06 14:18:50,252 - __main__ - INFO - Initializing LLM: llama-3.1-8b-instant
+2026-01-06 14:20:09,669 - __main__ - INFO - Initializing LLM: llama-3.1-8b-instant
+2026-01-06 14:20:14,613 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-06 14:20:14,742 - __main__ - INFO - Successfully processed query: my doctor saw my sonography report and told me the size of ovaries are increased so what is this iss...
+2026-01-06 14:21:10,544 - __main__ - INFO - Initializing LLM: llama-3.1-8b-instant
+2026-01-06 14:21:16,225 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-06 14:21:16,250 - __main__ - INFO - Successfully processed query: my weight is 70 and height is 5'2 what should i do...
+2026-01-06 14:21:48,155 - __main__ - INFO - Initializing LLM: llama-3.1-8b-instant
+2026-01-06 14:22:00,588 - __main__ - INFO - Initializing LLM: llama-3.1-8b-instant
